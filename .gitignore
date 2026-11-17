@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+# results and patient data never go into the repository
+results/
+*.nii
+*.nii.gz

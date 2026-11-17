@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below."
+title: "virtual-imri: virtual intraoperative MRI from navigated ultrasound"
+version: 1.0.0
+license: Apache-2.0
+authors:
+  - family-names: Cepeda
+    given-names: Santiago
+  - family-names: Esteban-Sinovas
+    given-names: Olga
+  - family-names: Arrese
+    given-names: Ignacio
+  - family-names: Sarabia
+    given-names: Rosario
+preferred-citation:
+  type: unpublished
+  title: "Synthesis of virtual intraoperative MRI from navigated ultrasound in brain tumor surgery"
+  authors:
+    - family-names: Cepeda
+      given-names: Santiago
+    - family-names: Esteban-Sinovas
+      given-names: Olga
+    - family-names: Arrese
+      given-names: Ignacio
+    - family-names: Sarabia
+      given-names: Rosario
+  notes: "Manuscript submitted for publication"

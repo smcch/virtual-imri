@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "virtual-imri"
+version = "1.0.0"
+description = "Virtual intraoperative MRI synthesized from post-resection navigated ultrasound and the preoperative MRI"
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.9"
+authors = [
+  { name = "Santiago Cepeda" },
+  { name = "Olga Esteban-Sinovas" },
+  { name = "Ignacio Arrese" },
+  { name = "Rosario Sarabia" },
+]
+dependencies = ["numpy", "scipy", "nibabel", "torch>=2.1"]
+
+[project.optional-dependencies]
+preview = ["matplotlib"]
+
+[project.scripts]
+virtual-imri = "virtual_imri.cli:main"
+
+[tool.setuptools]
+packages = ["virtual_imri"]
+
+[tool.setuptools.package-data]
+virtual_imri = ["weights/*.pth"]
